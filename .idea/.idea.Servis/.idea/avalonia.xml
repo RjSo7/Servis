@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="Servis/AddUpd.axaml" value="Servis/Servis.csproj" />
+        <entry key="Servis/AddUpdZ.axaml" value="Servis/Servis.csproj" />
+        <entry key="Servis/AddUpdZZ.axaml" value="Servis/Servis.csproj" />
+        <entry key="Servis/App.axaml" value="Servis/Servis.csproj" />
+        <entry key="Servis/DataGridHyperlinkColumn.axaml" value="Servis/Servis.csproj" />
+        <entry key="Servis/MainWindow.axaml" value="Servis/Servis.csproj" />
+        <entry key="Servis/Test.axaml" value="Servis/Servis.csproj" />
+        <entry key="Servis/main_admin.axaml" value="Servis/Servis.csproj" />
+        <entry key="Servis/main_client.axaml" value="Servis/Servis.csproj" />
+        <entry key="Servis/Авторизация.axaml" value="Servis/Servis.csproj" />
+        <entry key="Servis/Заказы.axaml" value="Servis/Servis.csproj" />
+        <entry key="Servis/ЗаказыZ.axaml" value="Servis/Servis.csproj" />
+        <entry key="Servis/Заявка.axaml" value="Servis/Servis.csproj" />
+        <entry key="Servis/Клиенты.axaml" value="Servis/Servis.csproj" />
+        <entry key="Servis/Машины.axaml" value="Servis/Servis.csproj" />
+        <entry key="Servis/МашиныZ.axaml" value="Servis/Servis.csproj" />
+        <entry key="Servis/Работа.axaml" value="Servis/Servis.csproj" />
+        <entry key="Servis/Сотрудники.axaml" value="Servis/Servis.csproj" />
+        <entry key="Servis/Услуга.axaml" value="Servis/Servis.csproj" />
+        <entry key="Servis/УслугиZ.axaml" value="Servis/Servis.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

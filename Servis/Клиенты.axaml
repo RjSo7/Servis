@@ -1,0 +1,36 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Servis.Клиенты"
+        Background="#F7C7811F"
+        Title="Таблица клиентов сервиса"
+        Height="400"
+        Width="850"
+        Icon="/Assets/service_logo.ico"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <TextBlock Margin = "10 10 0 0" FontSize = "20" FontWeight="Bold"> Таблица "Машины клиентов"</TextBlock>
+            <DataGrid Name="ClientGrid" x:CompileBindings="False" Margin ="10 20 0 0" Height="250">
+                <DataGrid.Resources>
+                    <SolidColorBrush x:Key="DataGridRowHoveredBackgroundColor" Color="#FF9D33" />
+
+                </DataGrid.Resources>
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Код" Binding="{Binding Код}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Фамилия" Binding="{Binding Фамилия}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Имя" Binding="{Binding Имя}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Отчество" Binding="{Binding Отчество}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Код_пол_клиента" Binding="{Binding Код_пол_клиента}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Телефон" Binding="{Binding Телефон}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Код_машина_клиента" Binding="{Binding Код_машина_клиента}"></DataGridTextColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+            <StackPanel Orientation="Horizontal" Margin="10 20 20 0">
+                <Button Name="Back" Content="Назад" Click="Back_OnClick"></Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
